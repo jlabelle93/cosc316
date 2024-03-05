@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C6FC7C2B958CC000056803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FC7B2B958CC000056803 /* AppDelegate.swift */; };
+		16C6FC7E2B958CC000056803 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FC7D2B958CC000056803 /* SceneDelegate.swift */; };
+		16C6FC802B958CC000056803 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FC7F2B958CC000056803 /* AddViewController.swift */; };
+		16C6FC832B958CC000056803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C6FC812B958CC000056803 /* Main.storyboard */; };
+		16C6FC852B958CC200056803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C6FC842B958CC200056803 /* Assets.xcassets */; };
+		16C6FC882B958CC200056803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C6FC862B958CC200056803 /* LaunchScreen.storyboard */; };
+		16C6FC932B958CC200056803 /* CollegeTableViewDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FC922B958CC200056803 /* CollegeTableViewDBTests.swift */; };
+		16C6FC9D2B958CC200056803 /* CollegeTableViewDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FC9C2B958CC200056803 /* CollegeTableViewDBUITests.swift */; };
+		16C6FC9F2B958CC200056803 /* CollegeTableViewDBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FC9E2B958CC200056803 /* CollegeTableViewDBUITestsLaunchTests.swift */; };
+		16C6FCB72B958CFB00056803 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCAD2B958CFA00056803 /* FMDatabase.m */; };
+		16C6FCB82B958CFB00056803 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCB02B958CFB00056803 /* FMDatabaseAdditions.m */; };
+		16C6FCB92B958CFB00056803 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCB32B958CFB00056803 /* FMDatabaseQueue.m */; };
+		16C6FCBA2B958CFB00056803 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCB42B958CFB00056803 /* FMResultSet.m */; };
+		16C6FCBB2B958CFB00056803 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCB52B958CFB00056803 /* FMDatabasePool.m */; };
+		16C6FCBE2B958D4B00056803 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6FCBD2B958D4B00056803 /* libsqlite3.tbd */; };
+		16C6FCC02B958F6E00056803 /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCBF2B958F6E00056803 /* FindViewController.swift */; };
+		16C6FCC22B958F9E00056803 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCC12B958F9E00056803 /* UpdateViewController.swift */; };
+		16C6FCC42B958FB300056803 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCC32B958FB300056803 /* DeleteViewController.swift */; };
+		16C6FCC62B95927500056803 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FCC52B95927500056803 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C6FC8F2B958CC200056803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C6FC702B958CC000056803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C6FC772B958CC000056803;
+			remoteInfo = CollegeTableViewDB;
+		};
+		16C6FC992B958CC200056803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C6FC702B958CC000056803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C6FC772B958CC000056803;
+			remoteInfo = CollegeTableViewDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C6FC782B958CC000056803 /* CollegeTableViewDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeTableViewDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C6FC7B2B958CC000056803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16C6FC7D2B958CC000056803 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16C6FC7F2B958CC000056803 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		16C6FC822B958CC000056803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16C6FC842B958CC200056803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16C6FC872B958CC200056803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16C6FC892B958CC200056803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C6FC8E2B958CC200056803 /* CollegeTableViewDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeTableViewDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C6FC922B958CC200056803 /* CollegeTableViewDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewDBTests.swift; sourceTree = "<group>"; };
+		16C6FC982B958CC200056803 /* CollegeTableViewDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeTableViewDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C6FC9C2B958CC200056803 /* CollegeTableViewDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewDBUITests.swift; sourceTree = "<group>"; };
+		16C6FC9E2B958CC200056803 /* CollegeTableViewDBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeTableViewDBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16C6FCAB2B958CFA00056803 /* CollegeTableViewDB-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CollegeTableViewDB-Bridging-Header.h"; sourceTree = "<group>"; };
+		16C6FCAC2B958CFA00056803 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		16C6FCAD2B958CFA00056803 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		16C6FCAE2B958CFA00056803 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		16C6FCAF2B958CFB00056803 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		16C6FCB02B958CFB00056803 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		16C6FCB12B958CFB00056803 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		16C6FCB22B958CFB00056803 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		16C6FCB32B958CFB00056803 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		16C6FCB42B958CFB00056803 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		16C6FCB52B958CFB00056803 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		16C6FCB62B958CFB00056803 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		16C6FCBD2B958D4B00056803 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		16C6FCBF2B958F6E00056803 /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		16C6FCC12B958F9E00056803 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		16C6FCC32B958FB300056803 /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		16C6FCC52B95927500056803 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C6FC752B958CC000056803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C6FCBE2B958D4B00056803 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C6FC8B2B958CC200056803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C6FC952B958CC200056803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C6FC6F2B958CC000056803 = {
+			isa = PBXGroup;
+			children = (
+				16C6FC7A2B958CC000056803 /* CollegeTableViewDB */,
+				16C6FC912B958CC200056803 /* CollegeTableViewDBTests */,
+				16C6FC9B2B958CC200056803 /* CollegeTableViewDBUITests */,
+				16C6FC792B958CC000056803 /* Products */,
+				16C6FCBC2B958D4B00056803 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16C6FC792B958CC000056803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C6FC782B958CC000056803 /* CollegeTableViewDB.app */,
+				16C6FC8E2B958CC200056803 /* CollegeTableViewDBTests.xctest */,
+				16C6FC982B958CC200056803 /* CollegeTableViewDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C6FC7A2B958CC000056803 /* CollegeTableViewDB */ = {
+			isa = PBXGroup;
+			children = (
+				16C6FCAF2B958CFB00056803 /* FMDatabase.h */,
+				16C6FCAD2B958CFA00056803 /* FMDatabase.m */,
+				16C6FCAC2B958CFA00056803 /* FMDatabaseAdditions.h */,
+				16C6FCB02B958CFB00056803 /* FMDatabaseAdditions.m */,
+				16C6FCB22B958CFB00056803 /* FMDatabasePool.h */,
+				16C6FCB52B958CFB00056803 /* FMDatabasePool.m */,
+				16C6FCB12B958CFB00056803 /* FMDatabaseQueue.h */,
+				16C6FCB32B958CFB00056803 /* FMDatabaseQueue.m */,
+				16C6FCAE2B958CFA00056803 /* FMDB.h */,
+				16C6FCB62B958CFB00056803 /* FMResultSet.h */,
+				16C6FCB42B958CFB00056803 /* FMResultSet.m */,
+				16C6FC7B2B958CC000056803 /* AppDelegate.swift */,
+				16C6FC7D2B958CC000056803 /* SceneDelegate.swift */,
+				16C6FC7F2B958CC000056803 /* AddViewController.swift */,
+				16C6FCBF2B958F6E00056803 /* FindViewController.swift */,
+				16C6FCC12B958F9E00056803 /* UpdateViewController.swift */,
+				16C6FCC32B958FB300056803 /* DeleteViewController.swift */,
+				16C6FCC52B95927500056803 /* TableViewController.swift */,
+				16C6FC812B958CC000056803 /* Main.storyboard */,
+				16C6FC842B958CC200056803 /* Assets.xcassets */,
+				16C6FC862B958CC200056803 /* LaunchScreen.storyboard */,
+				16C6FC892B958CC200056803 /* Info.plist */,
+				16C6FCAB2B958CFA00056803 /* CollegeTableViewDB-Bridging-Header.h */,
+			);
+			path = CollegeTableViewDB;
+			sourceTree = "<group>";
+		};
+		16C6FC912B958CC200056803 /* CollegeTableViewDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				16C6FC922B958CC200056803 /* CollegeTableViewDBTests.swift */,
+			);
+			path = CollegeTableViewDBTests;
+			sourceTree = "<group>";
+		};
+		16C6FC9B2B958CC200056803 /* CollegeTableViewDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16C6FC9C2B958CC200056803 /* CollegeTableViewDBUITests.swift */,
+				16C6FC9E2B958CC200056803 /* CollegeTableViewDBUITestsLaunchTests.swift */,
+			);
+			path = CollegeTableViewDBUITests;
+			sourceTree = "<group>";
+		};
+		16C6FCBC2B958D4B00056803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C6FCBD2B958D4B00056803 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C6FC772B958CC000056803 /* CollegeTableViewDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C6FCA22B958CC200056803 /* Build configuration list for PBXNativeTarget "CollegeTableViewDB" */;
+			buildPhases = (
+				16C6FC742B958CC000056803 /* Sources */,
+				16C6FC752B958CC000056803 /* Frameworks */,
+				16C6FC762B958CC000056803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeTableViewDB;
+			productName = CollegeTableViewDB;
+			productReference = 16C6FC782B958CC000056803 /* CollegeTableViewDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C6FC8D2B958CC200056803 /* CollegeTableViewDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C6FCA52B958CC200056803 /* Build configuration list for PBXNativeTarget "CollegeTableViewDBTests" */;
+			buildPhases = (
+				16C6FC8A2B958CC200056803 /* Sources */,
+				16C6FC8B2B958CC200056803 /* Frameworks */,
+				16C6FC8C2B958CC200056803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C6FC902B958CC200056803 /* PBXTargetDependency */,
+			);
+			name = CollegeTableViewDBTests;
+			productName = CollegeTableViewDBTests;
+			productReference = 16C6FC8E2B958CC200056803 /* CollegeTableViewDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16C6FC972B958CC200056803 /* CollegeTableViewDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C6FCA82B958CC200056803 /* Build configuration list for PBXNativeTarget "CollegeTableViewDBUITests" */;
+			buildPhases = (
+				16C6FC942B958CC200056803 /* Sources */,
+				16C6FC952B958CC200056803 /* Frameworks */,
+				16C6FC962B958CC200056803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C6FC9A2B958CC200056803 /* PBXTargetDependency */,
+			);
+			name = CollegeTableViewDBUITests;
+			productName = CollegeTableViewDBUITests;
+			productReference = 16C6FC982B958CC200056803 /* CollegeTableViewDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C6FC702B958CC000056803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					16C6FC772B958CC000056803 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					16C6FC8D2B958CC200056803 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 16C6FC772B958CC000056803;
+					};
+					16C6FC972B958CC200056803 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 16C6FC772B958CC000056803;
+					};
+				};
+			};
+			buildConfigurationList = 16C6FC732B958CC000056803 /* Build configuration list for PBXProject "CollegeTableViewDB" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16C6FC6F2B958CC000056803;
+			productRefGroup = 16C6FC792B958CC000056803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C6FC772B958CC000056803 /* CollegeTableViewDB */,
+				16C6FC8D2B958CC200056803 /* CollegeTableViewDBTests */,
+				16C6FC972B958CC200056803 /* CollegeTableViewDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C6FC762B958CC000056803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C6FC882B958CC200056803 /* LaunchScreen.storyboard in Resources */,
+				16C6FC852B958CC200056803 /* Assets.xcassets in Resources */,
+				16C6FC832B958CC000056803 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C6FC8C2B958CC200056803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C6FC962B958CC200056803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C6FC742B958CC000056803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C6FC802B958CC000056803 /* AddViewController.swift in Sources */,
+				16C6FC7C2B958CC000056803 /* AppDelegate.swift in Sources */,
+				16C6FCBA2B958CFB00056803 /* FMResultSet.m in Sources */,
+				16C6FC7E2B958CC000056803 /* SceneDelegate.swift in Sources */,
+				16C6FCB72B958CFB00056803 /* FMDatabase.m in Sources */,
+				16C6FCC42B958FB300056803 /* DeleteViewController.swift in Sources */,
+				16C6FCC02B958F6E00056803 /* FindViewController.swift in Sources */,
+				16C6FCC62B95927500056803 /* TableViewController.swift in Sources */,
+				16C6FCBB2B958CFB00056803 /* FMDatabasePool.m in Sources */,
+				16C6FCB82B958CFB00056803 /* FMDatabaseAdditions.m in Sources */,
+				16C6FCB92B958CFB00056803 /* FMDatabaseQueue.m in Sources */,
+				16C6FCC22B958F9E00056803 /* UpdateViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C6FC8A2B958CC200056803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C6FC932B958CC200056803 /* CollegeTableViewDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C6FC942B958CC200056803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C6FC9F2B958CC200056803 /* CollegeTableViewDBUITestsLaunchTests.swift in Sources */,
+				16C6FC9D2B958CC200056803 /* CollegeTableViewDBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C6FC902B958CC200056803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C6FC772B958CC000056803 /* CollegeTableViewDB */;
+			targetProxy = 16C6FC8F2B958CC200056803 /* PBXContainerItemProxy */;
+		};
+		16C6FC9A2B958CC200056803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C6FC772B958CC000056803 /* CollegeTableViewDB */;
+			targetProxy = 16C6FC992B958CC200056803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16C6FC812B958CC000056803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C6FC822B958CC000056803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16C6FC862B958CC200056803 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C6FC872B958CC200056803 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C6FCA02B958CC200056803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16C6FCA12B958CC200056803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C6FCA32B958CC200056803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollegeTableViewDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.CollegeTableViewDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CollegeTableViewDB/CollegeTableViewDB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16C6FCA42B958CC200056803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollegeTableViewDB/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.CollegeTableViewDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CollegeTableViewDB/CollegeTableViewDB-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16C6FCA62B958CC200056803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.CollegeTableViewDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeTableViewDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollegeTableViewDB";
+			};
+			name = Debug;
+		};
+		16C6FCA72B958CC200056803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.CollegeTableViewDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeTableViewDB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CollegeTableViewDB";
+			};
+			name = Release;
+		};
+		16C6FCA92B958CC200056803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.CollegeTableViewDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollegeTableViewDB;
+			};
+			name = Debug;
+		};
+		16C6FCAA2B958CC200056803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.CollegeTableViewDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollegeTableViewDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C6FC732B958CC000056803 /* Build configuration list for PBXProject "CollegeTableViewDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C6FCA02B958CC200056803 /* Debug */,
+				16C6FCA12B958CC200056803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C6FCA22B958CC200056803 /* Build configuration list for PBXNativeTarget "CollegeTableViewDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C6FCA32B958CC200056803 /* Debug */,
+				16C6FCA42B958CC200056803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C6FCA52B958CC200056803 /* Build configuration list for PBXNativeTarget "CollegeTableViewDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C6FCA62B958CC200056803 /* Debug */,
+				16C6FCA72B958CC200056803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C6FCA82B958CC200056803 /* Build configuration list for PBXNativeTarget "CollegeTableViewDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C6FCA92B958CC200056803 /* Debug */,
+				16C6FCAA2B958CC200056803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C6FC702B958CC000056803 /* Project object */;
+}

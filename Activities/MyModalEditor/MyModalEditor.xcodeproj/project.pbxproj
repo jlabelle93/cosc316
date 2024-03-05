@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A33ADF2B72C2930026DA6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33ADE2B72C2930026DA6B /* AppDelegate.swift */; };
+		16A33AE12B72C2930026DA6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33AE02B72C2930026DA6B /* SceneDelegate.swift */; };
+		16A33AE32B72C2930026DA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33AE22B72C2930026DA6B /* ViewController.swift */; };
+		16A33AE62B72C2930026DA6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A33AE42B72C2930026DA6B /* Main.storyboard */; };
+		16A33AE82B72C2950026DA6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16A33AE72B72C2950026DA6B /* Assets.xcassets */; };
+		16A33AEB2B72C2950026DA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16A33AE92B72C2950026DA6B /* LaunchScreen.storyboard */; };
+		16A33AF62B72C2950026DA6B /* MyModalEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33AF52B72C2950026DA6B /* MyModalEditorTests.swift */; };
+		16A33B002B72C2950026DA6B /* MyModalEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33AFF2B72C2950026DA6B /* MyModalEditorUITests.swift */; };
+		16A33B022B72C2950026DA6B /* MyModalEditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33B012B72C2950026DA6B /* MyModalEditorUITestsLaunchTests.swift */; };
+		16A33B132B72C78E0026DA6B /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A33B122B72C78E0026DA6B /* EditViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16A33AF22B72C2950026DA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A33AD32B72C2930026DA6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A33ADA2B72C2930026DA6B;
+			remoteInfo = MyModalEditor;
+		};
+		16A33AFC2B72C2950026DA6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16A33AD32B72C2930026DA6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16A33ADA2B72C2930026DA6B;
+			remoteInfo = MyModalEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16A33ADB2B72C2930026DA6B /* MyModalEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyModalEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A33ADE2B72C2930026DA6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16A33AE02B72C2930026DA6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16A33AE22B72C2930026DA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16A33AE52B72C2930026DA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16A33AE72B72C2950026DA6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16A33AEA2B72C2950026DA6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16A33AEC2B72C2950026DA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16A33AF12B72C2950026DA6B /* MyModalEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyModalEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A33AF52B72C2950026DA6B /* MyModalEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModalEditorTests.swift; sourceTree = "<group>"; };
+		16A33AFB2B72C2950026DA6B /* MyModalEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyModalEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16A33AFF2B72C2950026DA6B /* MyModalEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModalEditorUITests.swift; sourceTree = "<group>"; };
+		16A33B012B72C2950026DA6B /* MyModalEditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModalEditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16A33B122B72C78E0026DA6B /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A33AD82B72C2930026DA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A33AEE2B72C2950026DA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A33AF82B72C2950026DA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16A33AD22B72C2930026DA6B = {
+			isa = PBXGroup;
+			children = (
+				16A33ADD2B72C2930026DA6B /* MyModalEditor */,
+				16A33AF42B72C2950026DA6B /* MyModalEditorTests */,
+				16A33AFE2B72C2950026DA6B /* MyModalEditorUITests */,
+				16A33ADC2B72C2930026DA6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16A33ADC2B72C2930026DA6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16A33ADB2B72C2930026DA6B /* MyModalEditor.app */,
+				16A33AF12B72C2950026DA6B /* MyModalEditorTests.xctest */,
+				16A33AFB2B72C2950026DA6B /* MyModalEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16A33ADD2B72C2930026DA6B /* MyModalEditor */ = {
+			isa = PBXGroup;
+			children = (
+				16A33ADE2B72C2930026DA6B /* AppDelegate.swift */,
+				16A33AE02B72C2930026DA6B /* SceneDelegate.swift */,
+				16A33AE22B72C2930026DA6B /* ViewController.swift */,
+				16A33AE42B72C2930026DA6B /* Main.storyboard */,
+				16A33AE72B72C2950026DA6B /* Assets.xcassets */,
+				16A33AE92B72C2950026DA6B /* LaunchScreen.storyboard */,
+				16A33AEC2B72C2950026DA6B /* Info.plist */,
+				16A33B122B72C78E0026DA6B /* EditViewController.swift */,
+			);
+			path = MyModalEditor;
+			sourceTree = "<group>";
+		};
+		16A33AF42B72C2950026DA6B /* MyModalEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				16A33AF52B72C2950026DA6B /* MyModalEditorTests.swift */,
+			);
+			path = MyModalEditorTests;
+			sourceTree = "<group>";
+		};
+		16A33AFE2B72C2950026DA6B /* MyModalEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16A33AFF2B72C2950026DA6B /* MyModalEditorUITests.swift */,
+				16A33B012B72C2950026DA6B /* MyModalEditorUITestsLaunchTests.swift */,
+			);
+			path = MyModalEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16A33ADA2B72C2930026DA6B /* MyModalEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A33B052B72C2950026DA6B /* Build configuration list for PBXNativeTarget "MyModalEditor" */;
+			buildPhases = (
+				16A33AD72B72C2930026DA6B /* Sources */,
+				16A33AD82B72C2930026DA6B /* Frameworks */,
+				16A33AD92B72C2930026DA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyModalEditor;
+			productName = MyModalEditor;
+			productReference = 16A33ADB2B72C2930026DA6B /* MyModalEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16A33AF02B72C2950026DA6B /* MyModalEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A33B082B72C2950026DA6B /* Build configuration list for PBXNativeTarget "MyModalEditorTests" */;
+			buildPhases = (
+				16A33AED2B72C2950026DA6B /* Sources */,
+				16A33AEE2B72C2950026DA6B /* Frameworks */,
+				16A33AEF2B72C2950026DA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A33AF32B72C2950026DA6B /* PBXTargetDependency */,
+			);
+			name = MyModalEditorTests;
+			productName = MyModalEditorTests;
+			productReference = 16A33AF12B72C2950026DA6B /* MyModalEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16A33AFA2B72C2950026DA6B /* MyModalEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A33B0B2B72C2950026DA6B /* Build configuration list for PBXNativeTarget "MyModalEditorUITests" */;
+			buildPhases = (
+				16A33AF72B72C2950026DA6B /* Sources */,
+				16A33AF82B72C2950026DA6B /* Frameworks */,
+				16A33AF92B72C2950026DA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16A33AFD2B72C2950026DA6B /* PBXTargetDependency */,
+			);
+			name = MyModalEditorUITests;
+			productName = MyModalEditorUITests;
+			productReference = 16A33AFB2B72C2950026DA6B /* MyModalEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16A33AD32B72C2930026DA6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					16A33ADA2B72C2930026DA6B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					16A33AF02B72C2950026DA6B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 16A33ADA2B72C2930026DA6B;
+					};
+					16A33AFA2B72C2950026DA6B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 16A33ADA2B72C2930026DA6B;
+					};
+				};
+			};
+			buildConfigurationList = 16A33AD62B72C2930026DA6B /* Build configuration list for PBXProject "MyModalEditor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16A33AD22B72C2930026DA6B;
+			productRefGroup = 16A33ADC2B72C2930026DA6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16A33ADA2B72C2930026DA6B /* MyModalEditor */,
+				16A33AF02B72C2950026DA6B /* MyModalEditorTests */,
+				16A33AFA2B72C2950026DA6B /* MyModalEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16A33AD92B72C2930026DA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A33AEB2B72C2950026DA6B /* LaunchScreen.storyboard in Resources */,
+				16A33AE82B72C2950026DA6B /* Assets.xcassets in Resources */,
+				16A33AE62B72C2930026DA6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A33AEF2B72C2950026DA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A33AF92B72C2950026DA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16A33AD72B72C2930026DA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A33B132B72C78E0026DA6B /* EditViewController.swift in Sources */,
+				16A33AE32B72C2930026DA6B /* ViewController.swift in Sources */,
+				16A33ADF2B72C2930026DA6B /* AppDelegate.swift in Sources */,
+				16A33AE12B72C2930026DA6B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A33AED2B72C2950026DA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A33AF62B72C2950026DA6B /* MyModalEditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16A33AF72B72C2950026DA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A33B002B72C2950026DA6B /* MyModalEditorUITests.swift in Sources */,
+				16A33B022B72C2950026DA6B /* MyModalEditorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16A33AF32B72C2950026DA6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A33ADA2B72C2930026DA6B /* MyModalEditor */;
+			targetProxy = 16A33AF22B72C2950026DA6B /* PBXContainerItemProxy */;
+		};
+		16A33AFD2B72C2950026DA6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16A33ADA2B72C2930026DA6B /* MyModalEditor */;
+			targetProxy = 16A33AFC2B72C2950026DA6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16A33AE42B72C2930026DA6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A33AE52B72C2930026DA6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16A33AE92B72C2950026DA6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16A33AEA2B72C2950026DA6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16A33B032B72C2950026DA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16A33B042B72C2950026DA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16A33B062B72C2950026DA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyModalEditor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.MyModalEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16A33B072B72C2950026DA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyModalEditor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.MyModalEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16A33B092B72C2950026DA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.MyModalEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyModalEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyModalEditor";
+			};
+			name = Debug;
+		};
+		16A33B0A2B72C2950026DA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.MyModalEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyModalEditor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyModalEditor";
+			};
+			name = Release;
+		};
+		16A33B0C2B72C2950026DA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.MyModalEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyModalEditor;
+			};
+			name = Debug;
+		};
+		16A33B0D2B72C2950026DA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jlabelle.MyModalEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyModalEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A33AD62B72C2930026DA6B /* Build configuration list for PBXProject "MyModalEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A33B032B72C2950026DA6B /* Debug */,
+				16A33B042B72C2950026DA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A33B052B72C2950026DA6B /* Build configuration list for PBXNativeTarget "MyModalEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A33B062B72C2950026DA6B /* Debug */,
+				16A33B072B72C2950026DA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A33B082B72C2950026DA6B /* Build configuration list for PBXNativeTarget "MyModalEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A33B092B72C2950026DA6B /* Debug */,
+				16A33B0A2B72C2950026DA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16A33B0B2B72C2950026DA6B /* Build configuration list for PBXNativeTarget "MyModalEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A33B0C2B72C2950026DA6B /* Debug */,
+				16A33B0D2B72C2950026DA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16A33AD32B72C2930026DA6B /* Project object */;
+}
