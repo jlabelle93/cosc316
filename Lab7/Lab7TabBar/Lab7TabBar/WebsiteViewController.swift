@@ -6,17 +6,18 @@
 //
 
 import UIKit
+import WebKit
 
-class WebsiteViewController: UIViewController {
+class WebsiteViewController: UIViewController, WKUIDelegate {
 
-    @IBOutlet weak var webView: UIWebView!
+    @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let myURL = URL(string: "https://www.google.ca/")
+        let myURL = URL(string: "http://192.168.161.128/Login/login.php")
         let myRequest = URLRequest(url: myURL!)
-        webView.loadRequest(myRequest)
+        webView.load(myRequest)
     }
 
 }
